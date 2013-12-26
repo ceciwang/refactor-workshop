@@ -1,22 +1,14 @@
 package com.thoughtworks;
 
 public class Person {
-    public static final int O = 0;
-    public static final int A = 1;
-    public static final int B = 2;
-    public static final int AB = 3;
+    private BloodGroup bloodGroup;
 
-    private int bloodGroup;
-
-    public Person(int bloodGroup) {
-        this.bloodGroup = bloodGroup;
-    }
-
-    public int getBloodGroup() {
+    public BloodGroup getBloodGroup() {
         return bloodGroup;
     }
 
-    public void setBloodGroup(int bloodGroup) {
+    public Person(BloodGroup bloodGroup) {
         this.bloodGroup = bloodGroup;
     }
+
 }
