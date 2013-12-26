@@ -2,26 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4160966-a804-4ff8-a366-a16a9e4c71de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/CapitalComputer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/PayAmount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/PriceComputer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/SpyChecker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/Engineer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/Manager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/Salesman.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="refactor-workshop.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387788562296" ignored="false" />
-    <file path="$PROJECT_DIR$/../oo/oobootcamp/.idea/workspace.xml" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388027209209" ignored="false" />
+    <file path="/Dummy.txt" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388047337389" ignored="false" />
+    <file path="$PROJECT_DIR$/../oo/oobootcamp/.idea/workspace.xml" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069810047" ignored="false" />
     <file path="/Charge.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387790497835" ignored="false" />
     <file path="/SpyChecker.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387790776372" ignored="false" />
     <file path="/PayAmount.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387791159043" ignored="false" />
     <file path="/CapitalComputer.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387791278530" ignored="false" />
-    <file path="/Employee.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387791871291" ignored="false" />
-    <file path="/fragment.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387791649298" ignored="false" />
+    <file path="/Employee.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069694727" ignored="false" />
+    <file path="/fragment.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069518205" ignored="false" />
     <file path="/EmployeeType.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387791758312" ignored="false" />
     <file path="/Person.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387864127538" ignored="false" />
+    <file path="/a.dummy" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069005922" ignored="false" />
+    <file path="/Engineer.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069785396" ignored="false" />
+    <file path="/Salesman.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069352586" ignored="false" />
+    <file path="/Manager.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069393530" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,10 +120,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Person.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="15" selection-start="349" selection-end="349" vertical-scroll-proportion="0.5730337">
+            <state line="22" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Employee.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="572" selection-end="572" vertical-scroll-proportion="0.59177214">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Manager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Manager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="38" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Salesman.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Salesman.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="39" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Engineer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Engineer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="39" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,9 +199,11 @@
         <option value="$PROJECT_DIR$/src/com/thoughtworks/PayAmount.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/CapitalComputer.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/EmployeeType.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/Engineer.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/Employee.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/Manager.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/Salesman.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/Engineer.java" />
       </list>
     </option>
   </component>
@@ -199,7 +239,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -239,21 +278,22 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -344,25 +384,25 @@
     <frame x="664" y="29" width="766" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35555556" sideWeight="0.67027026" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35416666" sideWeight="0.67027026" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -433,6 +473,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/PriceComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="15" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/SpyChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="19" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="15" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/CapitalComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="35" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/PayAmount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="1" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/PayAmount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
@@ -463,7 +545,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="15" selection-start="349" selection-end="349" vertical-scroll-proportion="0.5730337">
+        <state line="22" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Salesman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="39" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="38" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Engineer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="39" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="572" selection-end="572" vertical-scroll-proportion="0.59177214">
           <folding />
         </state>
       </provider>
