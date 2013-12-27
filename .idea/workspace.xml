@@ -2,22 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4160966-a804-4ff8-a366-a16a9e4c71de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/thoughtworks/CapitalCalculatorTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/CapitalComputer.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/CapitalCalculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/refactor-workshop.iml" afterPath="$PROJECT_DIR$/refactor-workshop.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/thoughtworks/PayAmountCalculatorTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/PayAmount.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/PayAmountCalculator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="refactor-workshop.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388071509410" ignored="false" />
-    <file path="$PROJECT_DIR$/../oo/oobootcamp/.idea/workspace.xml" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388072404945" ignored="false" />
+    <file path="$PROJECT_DIR$/../oo/oobootcamp/.idea/workspace.xml" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388126313161" ignored="false" />
     <file path="/Charge.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387790497835" ignored="false" />
     <file path="/SpyChecker.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387790776372" ignored="false" />
-    <file path="/PayAmount.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387791159043" ignored="false" />
+    <file path="/PayAmount.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388126867036" ignored="false" />
     <file path="/CapitalComputer.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388071408982" ignored="false" />
     <file path="/Employee.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069694727" ignored="false" />
-    <file path="/fragment.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388071825265" ignored="false" />
+    <file path="/fragment.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388126844880" ignored="false" />
     <file path="/EmployeeType.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387791758312" ignored="false" />
     <file path="/Person.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387864127538" ignored="false" />
     <file path="/a.dummy" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069005922" ignored="false" />
@@ -25,6 +23,8 @@
     <file path="/Salesman.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069352586" ignored="false" />
     <file path="/Manager.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069393530" ignored="false" />
     <file path="/CapitalCalculatorTest.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388072460702" ignored="false" />
+    <file path="/PayAmountTest.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388126950576" ignored="false" />
+    <file path="/PayAmountCalculatorTest.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388126951193" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,15 +85,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PriceComputer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/PriceComputer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="15" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SpyChecker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/SpyChecker.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CapitalCalculator.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CapitalCalculator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/CapitalCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="11" selection-start="464" selection-end="464" vertical-scroll-proportion="0.5978022">
+            <state line="9" column="33" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -168,11 +159,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PayAmount.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/PayAmount.java">
+      <file leaf-file-name="PayAmountCalculator.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/PayAmountCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
+            <state line="16" column="11" selection-start="421" selection-end="421" vertical-scroll-proportion="0.18681319">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PayAmountCalculatorTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/PayAmountCalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="83" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,11 +197,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/Charge.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/PriceComputer.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/SpyChecker.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/PayAmount.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/EmployeeType.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/Person.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/Employee.java" />
@@ -210,6 +209,10 @@
         <option value="$PROJECT_DIR$/test/CapitalCalculatorTest.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/CapitalCalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/CapitalCalculator.java" />
+        <option value="$PROJECT_DIR$/test/com/thoughtworks/PayAmountTest.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/PayAmount.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/PayAmountCalculator.java" />
+        <option value="$PROJECT_DIR$/test/com/thoughtworks/PayAmountCalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -315,6 +318,7 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -331,7 +335,7 @@
       <recent name="com.thoughtworks" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CapitalCalculatorTest">
+  <component name="RunManager" selected="JUnit.PayAmountCalculatorTest.should_return_retired_payment">
     <configuration default="false" name="CapitalCalculatorTest.should_calculate_result" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="refactor-workshop" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -362,6 +366,28 @@
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.CapitalCalculatorTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PayAmountCalculatorTest.should_return_retired_payment" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="refactor-workshop" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.PayAmountCalculatorTest" />
+      <option name="METHOD_NAME" value="should_return_retired_payment" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -431,14 +457,16 @@
       <patterns />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.CapitalCalculatorTest.should_calculate_result" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.CapitalCalculatorTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PayAmountCalculatorTest.should_return_retired_payment" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CapitalCalculatorTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CapitalCalculatorTest.should_calculate_result" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PayAmountCalculatorTest.should_return_retired_payment" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CapitalCalculatorTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CapitalCalculatorTest.should_calculate_result" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -480,7 +508,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1886657" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -551,13 +579,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/PriceComputer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="15" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/SpyChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="19" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
@@ -579,7 +600,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/PayAmount.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/PayAmountCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
           <folding />
@@ -589,13 +610,6 @@
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="1" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/PayAmount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -660,7 +674,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/CapitalCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="464" selection-end="464" vertical-scroll-proportion="0.5978022">
+        <state line="9" column="33" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/PayAmountCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="83" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/PayAmountCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="11" selection-start="421" selection-end="421" vertical-scroll-proportion="0.18681319">
           <folding />
         </state>
       </provider>
