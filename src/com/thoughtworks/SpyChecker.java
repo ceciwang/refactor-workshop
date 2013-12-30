@@ -31,10 +31,10 @@ public class SpyChecker {
                 }
             }
         }
-        someLaterCode();
+        someLaterCode(found);
     }
 
-    private void someLaterCode() {
+    private void someLaterCode(String found) {
     }
 
     private void sendAlert() {
