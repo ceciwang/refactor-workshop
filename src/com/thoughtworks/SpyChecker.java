@@ -14,7 +14,6 @@ public class SpyChecker {
                     found = true;
                 }
             }
-
         }
     }
 
@@ -36,12 +35,8 @@ public class SpyChecker {
     }
 
     private void someLaterCode() {
-
-
     }
 
     private void sendAlert() {
-
-
     }
 }

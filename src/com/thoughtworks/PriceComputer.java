@@ -50,7 +50,6 @@ public class PriceComputer {
             total = price * 0.98;
             send();
         }
-
     }
 
 
