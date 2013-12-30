@@ -41,6 +41,7 @@ public class PriceComputer {
         return 0.5;
     }
 
+
     public void sendEmail(){
         if(isSpecialDeal()){
             total = price * 0.95;

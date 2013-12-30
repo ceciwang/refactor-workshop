@@ -11,17 +11,11 @@ public class PayAmountCalculator {
         isRetired = retired;
     }
 
-    int amount(){
-        int result;
-        if(isDead) result = deadAmount();
-        else {
-            if(isSeparated) result = separatedAmount();
-            else {
-                if(isRetired) result = retiredAmount();
-                else result = normalPayAmount();
-            }
-        }
-        return result;
+    int amount() {
+        if (isDead) return deadAmount();
+        if (isSeparated) return separatedAmount();
+        if (isRetired) return retiredAmount();
+        return normalPayAmount();
     }
 
 
