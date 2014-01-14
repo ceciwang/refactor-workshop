@@ -34,4 +34,10 @@ public class AccountTest {
         account.setType(new AccountType(true));
         assertThat(account.bankCharge(), is(15.35));
     }
+    @Test
+    public void should_calculate_interest_rate(){
+        Account account = new Account();
+        account.setInterestRate(0.2);
+        assertThat(account.interestForAmount(10, 365), is(2.0));
+    }
 }

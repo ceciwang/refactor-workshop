@@ -25,21 +25,19 @@ class Account {
         return result;
     }
 
-    
     double interestForAmount(double amount, int days) {
-        return getInterestRate() * amount * days / 365;
+        return interestRate * amount * days / 365;
     }
 
     void setType(AccountType type) {
         this.type = type;
     }
 
+    void setInterestRate(double interestRate) {
+        this.interestRate = interestRate;
+    }
+
     void setDaysOverdrawn(int daysOverdrawn) {
         this.daysOverdrawn = daysOverdrawn;
     }
-
-    public double getInterestRate(){
-        return interestRate;
-    }
-
 }
