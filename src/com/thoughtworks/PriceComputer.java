@@ -24,11 +24,10 @@ public class PriceComputer {
     }
 
     public double disabilityAmount() {
-        if(seniority < 2) return 0;
-        if(monthsDisabled > 12) return 0;
-        if(isPartTime) return 0;
+        return (seniority < 2 || monthsDisabled > 12 || isPartTime) ? 0 : computeDisabilityAmount();
+    }
 
-        //compute the disability amount
+    private double computeDisabilityAmount() {
         return quantity * winterRate + winterServiceCharge;
     }
 

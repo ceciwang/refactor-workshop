@@ -1,18 +1,11 @@
 package com.thoughtworks;
 
 public class SpyChecker {
-    void checkSecurity(String[] people){
-        boolean found = false;
+    void checkSecurity(String[] people) {
         for (int i = 0; i < people.length; i++) {
-            if(!found){
-                if(people[i].equals("Don")){
-                    sendAlert();
-                    found = true;
-                }
-                if(people[i].equals("John")){
-                    sendAlert();
-                    found = true;
-                }
+            if (people[i].equals("Don") || people[i].equals("John")) {
+                sendAlert();
+                break;
             }
         }
     }
