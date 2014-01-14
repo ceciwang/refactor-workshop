@@ -1,4 +1,4 @@
-package com.thoughtworks;
+package com.thoughtworks.conditional;
 
 public class Manager extends Employee{
     public Manager() {
@@ -6,6 +6,6 @@ public class Manager extends Employee{
 
     @Override
     public int getType(){
-        return Employee.MANAGER;
+        return MANAGER;
     }
 }

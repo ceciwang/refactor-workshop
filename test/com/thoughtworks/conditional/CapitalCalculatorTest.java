@@ -1,4 +1,4 @@
-package com.thoughtworks;
+package com.thoughtworks.conditional;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;

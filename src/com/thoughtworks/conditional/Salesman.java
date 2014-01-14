@@ -1,4 +1,4 @@
-package com.thoughtworks;
+package com.thoughtworks.conditional;
 
 public class Salesman extends Employee{
     public Salesman() {
@@ -6,6 +6,6 @@ public class Salesman extends Employee{
 
     @Override
     public int getType(){
-        return Employee.SALESMAN;
+        return SALESMAN;
     }
 }

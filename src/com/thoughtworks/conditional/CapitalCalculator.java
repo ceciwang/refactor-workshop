@@ -1,4 +1,4 @@
-package com.thoughtworks;
+package com.thoughtworks.conditional;
 
 public class CapitalCalculator {
     private static final double ADJ_FACTOR = 0.1;

@@ -1,4 +1,4 @@
-package com.thoughtworks;
+package com.thoughtworks.conditional;
 
 public abstract class Employee {
     static final int ENGINEER = 0;

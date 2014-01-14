@@ -1,7 +1,7 @@
-package com.thoughtworks;
+package com.thoughtworks.conditional;
 
 public class Engineer extends Employee{
-    private int typeCode = Employee.ENGINEER;
+    private int typeCode = ENGINEER;
 
     public Engineer() {
     }

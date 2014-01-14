@@ -2,21 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4160966-a804-4ff8-a366-a16a9e4c71de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/CapitalCalculator.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/CapitalCalculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/PriceComputer.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/PriceComputer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/SpyChecker.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/SpyChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/thoughtworks/conditional/SpyCheckerTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/thoughtworks/SpyCheckerTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/CapitalCalculator.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/conditional/CapitalCalculator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/Employee.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/conditional/Employee.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/Engineer.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/conditional/Engineer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/Manager.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/conditional/Manager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/PayAmountCalculator.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/conditional/PayAmountCalculator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/Person.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/conditional/Person.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/PriceComputer.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/conditional/PriceComputer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/Salesman.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/conditional/Salesman.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/SpyChecker.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/conditional/SpyChecker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/com/thoughtworks/CapitalCalculatorTest.java" afterPath="$PROJECT_DIR$/test/com/thoughtworks/conditional/CapitalCalculatorTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/com/thoughtworks/PayAmountCalculatorTest.java" afterPath="$PROJECT_DIR$/test/com/thoughtworks/conditional/PayAmountCalculatorTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="refactor-workshop.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1389704159828" ignored="false" />
+    <file path="/Dummy.txt" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1389704308733" ignored="false" />
     <file path="$PROJECT_DIR$/../oo/oobootcamp/.idea/workspace.xml" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388370360472" ignored="false" />
     <file path="/Charge.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387790497835" ignored="false" />
     <file path="/SpyChecker.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388390716459" ignored="false" />
     <file path="/PayAmount.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388126867036" ignored="false" />
     <file path="/CapitalComputer.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388071408982" ignored="false" />
     <file path="/Employee.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069694727" ignored="false" />
-    <file path="/fragment.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388126844880" ignored="false" />
+    <file path="/fragment.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1389704361833" ignored="false" />
     <file path="/EmployeeType.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387791758312" ignored="false" />
     <file path="/Person.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387864127538" ignored="false" />
     <file path="/a.dummy" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069005922" ignored="false" />
@@ -88,9 +98,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="PriceComputer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/PriceComputer.java">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/conditional/PriceComputer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="9" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.0">
+            <state line="65" column="9" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,72 +116,72 @@
         </entry>
       </file>
       <file leaf-file-name="SpyChecker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/SpyChecker.java">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/conditional/SpyChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="40" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+            <state line="29" column="40" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="PayAmountCalculator.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/PayAmountCalculator.java">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/conditional/PayAmountCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="19" selection-start="828" selection-end="828" vertical-scroll-proportion="0.5511288">
+            <state line="28" column="16" selection-start="724" selection-end="724" vertical-scroll-proportion="0.36918992">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SpyCheckerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/SpyCheckerTest.java">
+        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/conditional/SpyCheckerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+            <state line="4" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CapitalCalculatorTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/CapitalCalculatorTest.java">
+        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/conditional/CapitalCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+            <state line="22" column="0" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Employee.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Employee.java">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/conditional/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="20" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
+            <state line="18" column="20" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Manager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Manager.java">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/conditional/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="1" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+            <state line="10" column="1" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Salesman.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Salesman.java">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/conditional/Salesman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="39" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+            <state line="2" column="39" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="PayAmountCalculatorTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/PayAmountCalculatorTest.java">
+        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/conditional/PayAmountCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="83" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0">
+            <state line="26" column="83" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -195,7 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/EmployeeType.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/Person.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/Employee.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/Manager.java" />
@@ -211,6 +220,7 @@
         <option value="$PROJECT_DIR$/src/com/thoughtworks/PriceComputer.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/SpyChecker.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/CapitalCalculator.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/conditional/PayAmountCalculator.java" />
       </list>
     </option>
   </component>
@@ -244,7 +254,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -254,8 +263,77 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="refactor-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="refactor-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="refactor-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="refactor-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thoughtworks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="refactor-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="refactor-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thoughtworks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="refactor-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="refactor-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thoughtworks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moveFeature" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,18 +350,19 @@
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.thoughtworks" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.thoughtworks.conditional" />
       <recent name="com.thoughtworks" />
     </key>
   </component>
@@ -292,8 +371,8 @@
       <module name="refactor-workshop" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.CapitalCalculatorTest" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.conditional" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.conditional.CapitalCalculatorTest" />
       <option name="METHOD_NAME" value="should_calculate_result" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -314,8 +393,8 @@
       <module name="refactor-workshop" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.CapitalCalculatorTest" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.conditional" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.conditional.CapitalCalculatorTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -336,8 +415,8 @@
       <module name="refactor-workshop" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.PayAmountCalculatorTest" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.conditional" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.conditional.PayAmountCalculatorTest" />
       <option name="METHOD_NAME" value="should_return_retired_payment" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -446,7 +525,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -454,7 +533,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25466284" sideWeight="0.7861507" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25824964" sideWeight="0.7861507" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.7861507" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -531,12 +610,12 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/CapitalCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/conditional/CapitalCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="35" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/PayAmountCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/conditional/PayAmountCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
           <folding />
@@ -548,47 +627,47 @@
         <state line="12" column="1" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/conditional/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Engineer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/conditional/Engineer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="39" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/conditional/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="20" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
+        <state line="18" column="20" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/CapitalCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/conditional/CapitalCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+        <state line="22" column="0" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Salesman.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/conditional/Salesman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="39" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+        <state line="2" column="39" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/Manager.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/conditional/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+        <state line="10" column="1" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/SpyCheckerTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/conditional/SpyCheckerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -600,35 +679,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/PriceComputer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/conditional/PriceComputer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="9" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.0">
+        <state line="65" column="9" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/PayAmountCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/conditional/PayAmountCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="83" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0">
+        <state line="26" column="83" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/SpyChecker.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/conditional/SpyChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="40" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+        <state line="29" column="40" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/CapitalCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/conditional/CapitalCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="39" selection-start="492" selection-end="492" vertical-scroll-proportion="0.42932862" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/PayAmountCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/conditional/PayAmountCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="19" selection-start="828" selection-end="828" vertical-scroll-proportion="0.5511288">
+        <state line="28" column="16" selection-start="724" selection-end="724" vertical-scroll-proportion="0.36918992">
           <folding />
         </state>
       </provider>
