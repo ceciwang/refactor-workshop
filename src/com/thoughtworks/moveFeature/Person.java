@@ -1,4 +1,4 @@
-package refactor;
+package com.thoughtworks.moveFeature;
 
 public class Person {
     public void setDepartment(Department department) {

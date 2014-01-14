@@ -1,4 +1,4 @@
-package reorganize;
+package com.thoughtworks.organizingData;
 
 public class Employee {
     private int type;

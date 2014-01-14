@@ -1,4 +1,4 @@
-package refactor;
+package com.thoughtworks.moveFeature;
 
 public class Person1 {
     private String name;

@@ -1,4 +1,4 @@
-package reorganize;
+package com.thoughtworks.organizingData;
 
 public class Customer {
     private final String name;

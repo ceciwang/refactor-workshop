@@ -1,6 +1,6 @@
-package refactor;
+package com.thoughtworks.moveFeature;
 
-public class Account {
+ class Account {
     private AccountType type;
     private int daysOverdrawn = 0;
     private double interestRate = 0;

@@ -1,4 +1,4 @@
-package refactor;
+package com.thoughtworks.moveFeature;
 
 public class AccountType {
     private double interestRate = 0;

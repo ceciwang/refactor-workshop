@@ -1,4 +1,6 @@
-package reorganize;
+package com.thoughtworks.organizingData;
+
+import com.thoughtworks.organizingData.Course;
 
 import java.util.HashSet;
 import java.util.Set;
