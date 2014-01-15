@@ -1,6 +1,6 @@
 package com.thoughtworks.moveFeature;
 
-public class Person1 {
+public class PersonInline {
     private String name;
     private String officeNumber;
     private Telephone officeTelephone = new Telephone();
