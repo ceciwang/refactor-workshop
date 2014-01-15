@@ -2,7 +2,6 @@ package com.thoughtworks.moveFeature;
 
 public class PersonInline {
     private String name;
-    private String officeNumber;
     private Telephone officeTelephone = new Telephone();
 
     public String getName(){
@@ -13,6 +12,9 @@ public class PersonInline {
         return officeTelephone.getTelephoneNumber();
     }
 
+    public Telephone getOfficeTelephone() {
+        return officeTelephone;
+    }
 }
 
 class Telephone {
@@ -21,5 +23,21 @@ class Telephone {
 
     public String getTelephoneNumber() {
         return ("("+ officeAreaCode + ")"+ officeNumber);
+    }
+
+    String getOfficeAreaCode() {
+        return officeAreaCode;
+    }
+
+    void setOfficeAreaCode(String officeAreaCode) {
+        this.officeAreaCode = officeAreaCode;
+    }
+
+    String getOfficeNumber() {
+        return officeNumber;
+    }
+
+    void setOfficeNumber(String officeNumber) {
+        this.officeNumber = officeNumber;
     }
 }
