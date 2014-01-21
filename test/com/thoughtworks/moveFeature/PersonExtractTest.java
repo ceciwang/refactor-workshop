@@ -9,9 +9,10 @@ public class PersonExtractTest {
     @Test
     public void should_get_telephone_number(){
         PersonExtract person = new PersonExtract();
-        person.setOfficeAreaCode("area");
-        person.setOfficeNumber("123");
-        String number = person.getTelephoneNumber();
-        assertThat(number,is("(area)123"));
+        TelephoneNumber telephoneNumber = new TelephoneNumber();
+        telephoneNumber.setOfficeAreaCode("area");
+        telephoneNumber.setOfficeNumber("123");
+        person.setTelephoneNumber(telephoneNumber);
+        assertThat(person.getTelephoneNumber(),is("(area)123"));
     }
 }

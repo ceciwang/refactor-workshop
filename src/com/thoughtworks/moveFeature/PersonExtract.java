@@ -2,30 +2,43 @@ package com.thoughtworks.moveFeature;
 
 public class PersonExtract {
     private String name;
-    private String officeAreaCode;
-    private String officeNumber;
+    private TelephoneNumber telephoneNumber;
+
+    public String getTelephoneNumber(){
+        return telephoneNumber.getString();
+    }
+
+    public void setTelephoneNumber(TelephoneNumber telephoneNumber) {
+        this.telephoneNumber = telephoneNumber;
+    }
 
     public String getName() {
         return name;
     }
 
-    public String getTelephoneNumber(){
-        return ("("+ officeAreaCode+")" + officeNumber);
-    }
+}
 
-    public String getOfficeAreaCode() {
+class TelephoneNumber{
+    private String officeAreaCode;
+    private String officeNumber;
+
+    String getOfficeAreaCode() {
         return officeAreaCode;
     }
 
-    public void setOfficeAreaCode(String officeAreaCode) {
+    void setOfficeAreaCode(String officeAreaCode) {
         this.officeAreaCode = officeAreaCode;
     }
 
-    public String getOfficeNumber() {
+    String getOfficeNumber() {
         return officeNumber;
     }
 
-    public void setOfficeNumber(String officeNumber) {
+    void setOfficeNumber(String officeNumber) {
         this.officeNumber = officeNumber;
+    }
+
+    public String getString() {
+        return ("("+ getOfficeAreaCode() +")" + getOfficeNumber());
     }
 }
