@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4160966-a804-4ff8-a366-a16a9e4c71de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/moveFeature/Account.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/moveFeature/Account.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/moveFeature/AccountType.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/moveFeature/AccountType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/moveFeature/PersonExtract.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/moveFeature/PersonExtract.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/thoughtworks/moveFeature/PersonExtractTest.java" afterPath="$PROJECT_DIR$/test/com/thoughtworks/moveFeature/PersonExtractTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/organizingData/OrderInspector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/thoughtworks/organizingData/OrderInspectorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/organizingData/Customer.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/organizingData/Customer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/organizingData/Order.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/organizingData/Order.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="refactor-workshop.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1389776713603" ignored="false" />
+    <file path="/Dummy.txt" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1392733648712" ignored="false" />
     <file path="$PROJECT_DIR$/../oo/oobootcamp/.idea/workspace.xml" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388370360472" ignored="false" />
     <file path="/Charge.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387790497835" ignored="false" />
     <file path="/SpyChecker.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388390716459" ignored="false" />
@@ -19,8 +19,8 @@
     <file path="/Employee.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069694727" ignored="false" />
     <file path="/fragment.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1389706115628" ignored="false" />
     <file path="/EmployeeType.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387791758312" ignored="false" />
-    <file path="/Person.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1387864127538" ignored="false" />
-    <file path="/a.dummy" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069005922" ignored="false" />
+    <file path="/Person.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1392789684610" ignored="false" />
+    <file path="/a.dummy" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1392788653643" ignored="false" />
     <file path="/Engineer.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069785396" ignored="false" />
     <file path="/Salesman.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069352586" ignored="false" />
     <file path="/Manager.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1388069393530" ignored="false" />
@@ -35,6 +35,13 @@
     <file path="/PersonExtract.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1389775529317" ignored="false" />
     <file path="/PersonExtractTest.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1389775645796" ignored="false" />
     <file path="/PersonInlineTest.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1389763923786" ignored="false" />
+    <file path="/Order.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1392788214281" ignored="false" />
+    <file path="/Orderinspector.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1392787845761" ignored="false" />
+    <file path="/OrderInspectorTest.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1392787983490" ignored="false" />
+    <file path="/Customer.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1392788226018" ignored="false" />
+    <file path="$USER_HOME$/Downloads/rwb/rwb/ch8-person/PersonClient.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1392797004014" ignored="false" />
+    <file path="$USER_HOME$/Downloads/rwb/rwb/ch8-person/Person.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1392789685617" ignored="false" />
+    <file path="/PersonClient.java" changelist="e4160966-a804-4ff8-a366-a16a9e4c71de" time="1392797001924" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,73 +102,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Account.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/moveFeature/Account.java">
+      <file leaf-file-name="OrderInspectorTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/organizingData/OrderInspectorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="21" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+            <state line="13" column="36" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderInspector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/organizingData/OrderInspector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="9" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/organizingData/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="1" selection-start="317" selection-end="317" vertical-scroll-proportion="0.721202">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/moveFeature/Person.java">
+      <file leaf-file-name="Order.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/organizingData/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonExtract.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/moveFeature/PersonExtract.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="683" selection-end="683" vertical-scroll-proportion="0.80906594">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonExtractTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/moveFeature/PersonExtractTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="8" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonInline.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/moveFeature/PersonInline.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="6" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonInlineTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/moveFeature/PersonInlineTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/moveFeature/AccountType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/moveFeature/AccountTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="37" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.0">
+            <state line="11" column="20" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -185,12 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/organizingData/Canary3.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/organizingData/Course.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/organizingData/Customer.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/organizingData/Employee.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/organizingData/IntRange.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/organizingData/Order.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/organizingData/Person.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/movingFeature/AccountTest.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/moveFeature/AccountTest.java" />
@@ -201,13 +170,18 @@
         <option value="$PROJECT_DIR$/src/com/thoughtworks/moveFeature/Account.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/moveFeature/PersonExtractTest.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/moveFeature/PersonExtract.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/organizingData/Orderinspector.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/organizingData/Order1.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/organizingData/OrderInspector.java" />
+        <option value="$PROJECT_DIR$/test/com/thoughtworks/organizingData/OrderInspectorTest.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/organizingData/Order.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/organizingData/Customer.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="874" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -235,7 +209,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,7 +245,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="moveFeature" />
+              <option name="myItemId" value="organizingData" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,52 +267,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="conditional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="refactor-workshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="refactor-workshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thoughtworks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="refactor-workshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="refactor-workshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thoughtworks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="moveFeature" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PersonInline.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <option name="myItemId" value="refactor-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="refactor-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thoughtworks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -360,12 +307,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="moveFeature" />
+              <option name="myItemId" value="organizingData" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PersonExtract.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -383,15 +326,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="thoughtworks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="moveFeature" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -404,17 +344,17 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/rwb/rwb" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -631,26 +571,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27977043" sideWeight="0.75582993" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.7861507" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24207012" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.7861507" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34724292" sideWeight="0.75928473" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21820448" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -717,65 +657,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/organizingData/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/organizingData/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="39" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/organizingData/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/organizingData/IntRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/organizingData/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/organizingData/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/moveFeature/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/conditional/CapitalCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="329" selection-end="391" vertical-scroll-proportion="0.19331396">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/moveFeature/AccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="37" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/moveFeature/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
@@ -785,21 +666,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/moveFeature/PersonInline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="6" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/moveFeature/PersonInlineTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+        <state line="32" column="6" selection-start="714" selection-end="714" vertical-scroll-proportion="0.58126724">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/moveFeature/AccountType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+        <state line="13" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.3402204">
           <folding />
         </state>
       </provider>
@@ -813,14 +687,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/moveFeature/PersonExtractTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+        <state line="15" column="8" selection-start="512" selection-end="512" vertical-scroll-proportion="0.39256197">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/moveFeature/PersonExtract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="683" selection-end="683" vertical-scroll-proportion="0.80906594">
+        <state line="29" column="24" selection-start="655" selection-end="655" vertical-scroll-proportion="0.5110193">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/organizingData/IntRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="22" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/organizingData/Canary3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/organizingData/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/organizingData/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/moveFeature/AccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/moveFeature/PersonInlineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/organizingData/OrderInspectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="36" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/organizingData/OrderInspector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="9" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/organizingData/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/organizingData/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="1" selection-start="317" selection-end="317" vertical-scroll-proportion="0.721202">
           <folding />
         </state>
       </provider>

@@ -7,7 +7,7 @@ public class Customer {
         this.name = name;
     }
 
-    public static Customer create(String name) {
+    public static Customer createCustomer(String name) {
         return new Customer(name);
     }
 
