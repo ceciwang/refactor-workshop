@@ -1,26 +1,31 @@
 package com.thoughtworks.typecode;
 
-class Employee {
-    private int type;
+abstract class Employee {
 
     static final int ENGINEER = 0;
     static final int SALESMAN = 1;
     static final int MANAGER = 2;
 
     protected Employee(int type) {
-        this.type = type;
+        this.setType(type);
     }
 
-    public int salary(){
+    protected static Employee create(int type) {
         switch (type){
             case ENGINEER:
-                return 100;
+                return new Engineer();
             case SALESMAN:
-                return 1000;
+                return new Salesman();
             case MANAGER:
-                return 10000;
+                return new Manager();
             default:
-                return 0;
+                throw new IllegalArgumentException("incorrect type code");
         }
+    }
+
+    abstract int getType();
+    abstract int salary();
+
+    public void setType(int type) {
     }
 }
