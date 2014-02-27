@@ -5,4 +5,8 @@ public class Salesman2 extends Employee2Type {
     int getTypeCode() {
         return SALESMAN;
     }
+
+    public int salary(Employee2 employee){
+        return employee.getMonthlySalary() + employee.getCommission();
+    }
 }

@@ -2,7 +2,7 @@ package com.thoughtworks.typecode;
 
 public class Employee2 {
 
-    private Employee2Type type;
+    Employee2Type type;
     private int monthlySalary = 100;
     private int commission = 200;
     private int bonus = 300;
@@ -19,25 +19,24 @@ public class Employee2 {
         this.bonus = bonus;
     }
 
+    public int getMonthlySalary() {
+        return monthlySalary;
+    }
+
+    public int getCommission() {
+        return commission;
+    }
+
+    public int getBonus() {
+        return bonus;
+    }
+
     public Employee2(int type) {
         this.setType(type);
     }
 
-    public int salary() {
-        switch (getType()) {
-            case Employee2Type.ENGINEER:
-                return monthlySalary;
-            case Employee2Type.SALESMAN:
-                return monthlySalary + commission;
-            case Employee2Type.MANAGER:
-                return monthlySalary + bonus;
-            default:
-                throw new RuntimeException("incorrect employee");
-        }
-    }
-
-    public int getType() {
-        return type.getTypeCode();
+    public int salary(){
+        return type.salary(this);
     }
 
     public void setType(int arg) {

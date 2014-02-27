@@ -5,4 +5,8 @@ public class Manager2 extends Employee2Type {
     int getTypeCode() {
         return MANAGER;
     }
+
+    public int salary(Employee2 employee){
+        return employee.getMonthlySalary() + employee.getBonus();
+    }
 }

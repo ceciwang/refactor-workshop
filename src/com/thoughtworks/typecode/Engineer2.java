@@ -5,4 +5,8 @@ public class Engineer2 extends Employee2Type {
     int getTypeCode() {
         return ENGINEER;
     }
+
+    public int salary(Employee2 employee){
+        return employee.getMonthlySalary();
+    }
 }

@@ -19,4 +19,6 @@ public abstract class Employee2Type {
                 throw new IllegalArgumentException("incorrect type code");
         }
     }
+
+    abstract int salary(Employee2 employee);
 }
